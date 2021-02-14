@@ -1,13 +1,13 @@
 {
 
   "host": "0.0.0.0",
-  "port": 7777,
+  "port": 6969,
 
   "keyLength": 10,
 
-  "maxLength": 400000,
+  "maxLength": 10000000,
 
-  "staticMaxAge": 86400,
+  "staticMaxAge": 2592000000,
 
   "recompressStaticAssets": true,
 
@@ -33,7 +33,10 @@
   },
 
   "storage": {
-    "type": "file"
+    
+  "path": "./data",
+  "type": "file"
+
   },
 
   "documents": {

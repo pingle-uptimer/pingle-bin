@@ -1,5 +1,5 @@
 body {
-	background: #002B36;
+	background: rgb(0, 0, 0);
 	padding: 20px 50px;
 	margin: 0px;
 }
@@ -65,11 +65,12 @@ textarea {
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+  background-image: initial;
+	background: #000000;
 }
 
 #box2 {
-	background: #08323c;
+	background: #000000;
 	font-size: 0px;
 	padding: 0px 5px;
 }
@@ -84,7 +85,6 @@ textarea {
 #box1 a.logo:hover {
 	background-position: 0 bottom;
 }
-
 #box2 .function {
 	background: url(function-icons.png);
 	width: 32px;
@@ -106,7 +106,7 @@ textarea {
 	display: block;
 	height: 5px;
 	width: 10px;
-	background: url(hover-dropdown-tip.png);
+	background: url(logo.png);
 	bottom: 0px;
 	position: absolute;
 	margin: auto;
@@ -115,7 +115,7 @@ textarea {
 }
 
 #box3, #messages li {
-	background: #173e48;
+	background: #000000;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
@@ -164,7 +164,7 @@ textarea {
 }
 
 #messages li {
-	background:rgba(23,62,72,0.8);
+	background:rgba(0, 0, 0, 0.8);
 	margin:0 auto;
 	list-style:none;
 }
