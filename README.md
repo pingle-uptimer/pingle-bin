@@ -35,7 +35,7 @@ pastes.
 
 PingleBin can easily be installed behind your network, and it's all open source!
 
-* [pingle-server](https://github.com/pingle-uptimer/pingle-bin)
+* [pingle-server](https://github.com/pin-gle/pingle-bin)
 
 ## Author
 
